@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<style>
+    .tabla{
+        border: 1px solid rgb(21,116,224);
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .tabla td{
+        border: 1px solid rgb(21,116,224);
+        color: darkblue;
+    }
+    </style>
+
+<body>
+   
+   <table class="tabla">
+      <thead>
+           <tr>
+               <th>Numero 1</th>
+               <th>Operación</th>
+               <th>Numero 2</th>
+               <th>Resultado</th>
+           </tr>
+       </thead>
+       <tbody>
+          <tr>
+              <td><input type="text" placeholder="" id="n1"></td>
+              <td><select name="" id="operacion">
+                  <option value="1">Suma</option>
+                  <option value="2">Resta</option>
+                  </select></td>
+              <td><input type="text" placeholder="" id="n2"></td>
+              <td><button onclick="calcular()" >Calcular</button> </td>
+              <td><input type="text" id="resultado"></td>
+           </tr>
+       </tbody>
+   </table>
+   
+   <br>
+   
+  <table class="tabla">
+      <thead>
+           <tr>
+               <th>Edad</th>
+               <th>Operacion</th>
+               <th>Resultado</th>
+           </tr>
+       </thead>
+       <tbody>
+          <tr>
+              <td><input type="text" placeholder="" id="edad"></td>
+              <td><button onclick="calcular2()" >Calcular</button> </td>
+              <td><input type="text" id="resultado2"></td>
+           </tr>
+       </tbody>
+   </table>
+   
+    <script src="MAIN.JS"></script>
+</body>
+</html>
