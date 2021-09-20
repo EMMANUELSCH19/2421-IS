@@ -1,0 +1,21 @@
+body{
+    background: no-repeat center/190% url("C:/Users/EMMANUEL SANTOYO CH/Music/PROGRAMACION WEB/PRACTICA_5 - JUEGO_GATO/IMG/FONDO.JPG");
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+.tablero{
+    text-align: center;
+}
+
+.casilla{
+    width: 150px;
+    height: 150px;
+	background-color: white;
+    vertical-align: text-bottom;
+    color: black;
+    font-size: 50px;
+    border-radius: 10px;
+}
