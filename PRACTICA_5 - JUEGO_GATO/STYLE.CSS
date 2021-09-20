@@ -1,10 +1,10 @@
 body{
-    background: no-repeat center/190% url("C:/Users/EMMANUEL SANTOYO CH/Music/PROGRAMACION WEB/PRACTICA_5 - JUEGO_GATO/IMG/FONDO.JPG");
+    background: no-repeat center/190% url("https://static.vecteezy.com/system/resources/previews/002/228/640/non_2x/abstract-hexagons-black-on-a-black-and-gray-background-vector.jpg");
 }
 
 h1{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 .tablero{
     text-align: center;
