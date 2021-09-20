@@ -5,17 +5,33 @@ body{
 h1{
     color: white;
     font-size: 40px;
+    color: #1FFF8A;
 }
+
 .tablero{
-    text-align: center;
+    text-align: center;  
 }
 
 .casilla{
     width: 150px;
     height: 150px;
 	background-color: white;
-    vertical-align: text-bottom;
     color: black;
-    font-size: 50px;
+    vertical-align: 50px;
+    font-size: 100px;
     border-radius: 10px;
+    text-align: center;
+    border: solid#1FFF8A;
+}
+
+.terminar{
+    text-align: center;
+}
+
+.btn_terminar{
+    margin: 10px 0px;
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    background: #1FFF8A;
 }
