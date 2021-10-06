@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+    background: no-repeat center/190% url("https://static.vecteezy.com/system/resources/previews/002/228/640/non_2x/abstract-hexagons-black-on-a-black-and-gray-background-vector.jpg");
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    color: #1FFF8A;
+}
+.modos{
+    margin-top: 20px;
+    color: #1FFF8A;
+}
